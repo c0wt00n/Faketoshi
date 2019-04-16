@@ -1,0 +1,4 @@
+Chrome extension that checks if Craig Wright, Faketoshi, or Bitcoin SV is mentioned on a web page, and if so then any instance of Craig Wright, Craig Steven Wright, Craig, Wright, CSW, or CW on that webpage is replaced with "Faketoshi".
+
+### How to use
+Until this is accepted in the chrome web store or if you want to verify the source files, simply place contentScript.js and manifest.json in an empty folder on your hard drive. Type "chrome://extensions/" in your chrome address bar, select "developer mode" from the top right, then "Load unpacked" and select the folder where you placed the files. 

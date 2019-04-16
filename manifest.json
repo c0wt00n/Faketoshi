@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "Faketoshi",
+  "version": "1.0",
+  "description": "Replaces 'Craig Wright' with 'Faketoshi'.",
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["contentScript.js"]
+    }
+  ]
+ }
